@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(12, 12, 97);
+}
+
+.login-bg{
+    background: linear-gradient(90deg, rgba(17,121,196,1) 0%, rgba(29,134,168,1) 50%, rgba(43,35,172,1) 100%);
+}
+
+.login-btn{
+    background-color: rgb(12, 12, 97);
+    border-color: rgb(12, 12, 97);
+    border-radius: .3rem;
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: rgb(24, 24, 140);
+    border-color: rgb(24, 24, 140);
+    color: white;
+}
+
+#clientId::placeholder{
+    color: rgb(210, 221, 231);
+}
+#username::placeholder{
+    color: rgb(210, 221, 231);
+}
+#password::placeholder{
+    color: rgb(210, 221, 231);
+}
+
+.li-bg{
+    background-color: rgb(42, 137, 209);
+}
+
+.item-bg{
+    background-color: rgb(107, 170, 218);
+}

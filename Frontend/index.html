@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark login-bg">
+         <div class="ms-5 p-2">
+             <a href="#" class="navbar-brand">BancoE5</a>
+         </div>
+    </nav>
+
+    <section class="container">
+        <div class="mt-5 login-bg mx-auto w-50">
+            <form class="p-5" id="form">
+                <label for="username" class="mt-5 form-label text-white">Username</label>
+                <input type="text" id="username" class="form-control text-white bg-transparent" placeholder="username">
+
+                <label for="password" class="mt-4 form-label text-white">Password</label>
+                <input type="password" id="password" class="form-control text-white bg-transparent" placeholder="password">
+
+                <label for="clientId" class="mt-4 form-label text-white">Client ID</label>
+                <input type="text" id="clientId" class="form-control text-white bg-transparent" placeholder="clientID">
+
+                <button type="submit" class="mt-5 btn login-btn form-control">Send</button>
+            </form>
+        </div>
+
+        <!-- Listar Informacion -->
+        <div id="list-data" class="my-5 w-50 mx-auto">
+            <ul class="list-group">
+                <li class="list-group-item li-bg text-white">Data List</li>
+                <li class="list-group-item item-bg text-white">An Item</li>
+                <li class="list-group-item item-bg text-white">Second Item</li>
+                <li class="list-group-item item-bg text-white">Third Item</li>
+            </ul>
+        </div>
+
+
+    </section>
+
+    <script src="js/index.js"> </script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
